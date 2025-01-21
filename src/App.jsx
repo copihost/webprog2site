@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
@@ -9,7 +9,7 @@ import Lost from './pages/Lost.jsx'
 
 function App() {
   //const [count, setCount] = useState(0)
-
+  
   return (
     <>
     <BrowserRouter>
