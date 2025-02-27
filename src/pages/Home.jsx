@@ -1,5 +1,4 @@
 import Header from "../components/Header";
-import lovegif from "../assets/love-languages.gif"
 
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
                 <div class="card-body">
                   <div class="d-flex align-items-center mb-2">
                     <img
-                      src="https://via.placeholder.com/50"
+                      src="https://placehold.co/50x50"
                       class="rounded-circle me-2"
                       alt="User"
                     />
@@ -47,7 +46,7 @@ export default function Home() {
                 <div class="card-body">
                   <div class="d-flex align-items-center mb-2">
                     <img
-                      src="https://via.placeholder.com/50"
+                      src="https://placehold.co/50x50"
                       class="rounded-circle me-2"
                       alt="User"
                     />
